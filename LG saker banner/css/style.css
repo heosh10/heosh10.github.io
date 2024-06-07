@@ -1,0 +1,60 @@
+body, html {
+    width: 1920px;
+    margin: 0 auto;
+    background-color: #420406;
+}
+h1 {
+    margin: 40px auto;
+    text-align: center;
+    font: 700 80px 'NanumSquare', Arial, sans-serif;
+    color: #f5cb1f;
+    text-shadow: 0px 5px 5px black;
+}
+#slide {
+    width: 1920px;
+    margin: 0 auto;
+}
+#slide > li {
+    width: 1920px;
+    margin: 40px auto;
+    text-align: center;
+}
+#slide > li > img {
+    box-shadow: 0 0 20px #ffffff;
+    
+}
+#event {
+    margin: 40px auto;
+    display: flex;
+    justify-content: center;
+}
+#event > li {
+    margin: 0 20px;
+}
+#event > li > img {
+    box-shadow: 0 0 20px #ffffff;
+}
+#button {
+    width: 200px;
+    margin: 80px auto;
+    text-align: center;
+    border: 3px solid #f5cb1f;
+    border-radius: 15px;
+    background-color: #420406;
+}
+#button > a {
+    color: #f5cb1f;
+    background-color: none;
+    line-height: 50px;
+    font-size: 25px;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+#button:hover > a {
+    color: #420406;
+}
+#button:hover {
+    background-color: #f5cb1f;
+}

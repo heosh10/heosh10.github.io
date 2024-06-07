@@ -340,7 +340,7 @@ nav > ul > li:hover {
     float: left;
     width: 270px;
     padding: 10px;
-    font: 600 20px 'NanumSquare', Arial, sans-serif;
+    font: 700 20px 'NanumSquare', Arial, sans-serif;
     text-align: center;
     line-height: 380px;
     transform: scale(0.9);
@@ -350,28 +350,33 @@ nav > ul > li:hover {
 #pf-con > ul > li > a {
     display: block;
     border-radius: 30px;
-    border: 2px solid #353768;
+    text-shadow: 0 0 6px black;
+    border: 3px solid #353768;
+    color: #ffffff;
 }
-.photo1{
-    background: url(../images/bulk_br_img5.png) center / cover no-repeat;
-}
-.photo2 {
+.photo1 {
     background: url(../images/03월\ 19일\ 창원\ LG와\ 안양\ 정관장의\ 경기.png) center / cover no-repeat;
 }
+.photo2 {
+    background: url(../images/saker-slide.jpg) center / cover no-repeat;
+}
 .photo3 {
-    background: url(../images/24e6a16a-498e-4393-ae41-6af097f35f97.jpg) center / cover  no-repeat;
+    background: url(../images/wando.jpg) center / cover no-repeat;
+}
+.photo4 {
+    background: url(../images/bulk_br_img5.png) center / cover no-repeat;
+}
+.photo5 {
+    background: url(../images/banners.png) center / cover no-repeat;
 }
 #pf-con > ul > li:hover {
     transform: scale(1);
 }
-#pf-con > ul > li > a {
-    display: block;
-    width: 100%;
-    height: 100%;
-    color: #a9d195;
+#pf-con > ul > li:hover > a {
+    box-shadow: 0px 0px 10px #353768;
 }
-
-
+    
+    
 
 #footer {
     width: 1920px;
