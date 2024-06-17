@@ -1,4 +1,5 @@
 $(function(){
+
    const $mainList = $('#main-slide');
    let timerId = 0;
    let $photoIndex = 0;

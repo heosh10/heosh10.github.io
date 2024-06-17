@@ -1,4 +1,5 @@
 $(function(){
+
     let duration = 1200 ;
     $('#rightslide > button').on('click', function(e){
         e.preventDefault();
@@ -46,9 +47,21 @@ $(function(){
         
         else $('#portfolio > div > h2').first().css({marginTop: 0}).end().last().css({marginTop:'520px'});
         
+
+        let $nav = $("#nav");
+        let $scrollIndecator = $("#scroll-indecator");
+
+
+        const MAX_SCROLL_TOP = $(document).height() - $(window).height();
+
+        const scrollHeight = $(window).scrollTop();
+
+        const scrollRatio = (scrollHeight / MAX_SCROLL_TOP) * 100;
+
+        $scrollIndecator.css("width", scrollRatio + "%"); 
     });
     
-    let $navLi = $('#nav > ul > li');
+    let $navLi = $('#nav > a');
    $navLi.on('click', function(e){
         e.preventDefault();
        navLiIndex = $navLi.index(this);
@@ -90,4 +103,9 @@ $(function(){
     .css({marginLeft:'-33.33%'})
     .animate({marginLeft:0}, duration);
    });
+
+   
+ 
+
+
 });
