@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fantasy | PUBLIC GALLERY</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link href="https://hangeul.pstatic.net/hangeul_static/css/nanum-square.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/font.css">
+  <link rel="stylesheet" href="css/buy.css">
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+  <script src="js/script.js"></script>
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/2e7e9499bb.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header id="header">
+    <div class="header-up">
+      <a href="#"><img src="images/icon/person.png" alt="마이 페이지"></a>
+      <a href="#" class="cart" data-cart="0"><img src="images/icon/basket.png" alt="장 바구니"></a>
+      <a href=""><img src="images/icon/favorite.png" alt="찜 목록"></a>
+    </div>
+    <div class="header-down">
+      <a href="index.html"><img src="images/logo-wh.png" alt="public gallery logo"></a>
+      <ul>
+        <li><a href="#">전체작품</a>
+          <ul class="tab-menu">
+            <li> 추상화 </li>
+            <li> 정물화 </li>
+            <li> 팝아트 </li>
+            <li> 상상 </li>
+            <li> 공예 </li>
+          </ul>
+        </li>
+        <li><a href="#"> 추천작품 </a></li>
+        <li><a href="#"> 구입문의</a>
+          <ul class="tab-menu">
+            <li> 추상화 </li>
+            <li> 정물화 </li>
+            <li> 팝아트 </li>
+            <li> 상상 </li>
+            <li> 공예 </li>
+          </ul>
+        </li>
+        <li><a href="#"> 아티스트 </a></li>
+        <li><a href="#"> 전시 </a></li>
+        <li><a href="#"> 제휴문의 </a></li>
+      </ul>
+      <form class="search-box" action="#" method="get">
+        <input class="search-text" type="text" name="" placeholder="검색어를 입력하세요.">
+        <button class="search-btn" type="submit">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+      </form>
+    </div>
+  </header>
+  <main id="order-wrap">
+    <a href="index.html#new-artworks"><i class="fa-solid fa-arrow-left-long"></i></a>
+    <div class="left">
+      <img src="images/artworks/1.png" alt="작품명 Fatasy">
+    </div>
+    <div class="right">
+      <div class="top">
+        <h1>김규비ㅣFantasy</h1>
+        <p>1,900,000원</p>
+        <span>65.1x65.1cm,2024</span>
+        <span>Mixed media on canvas</span>
+        <dl>
+          <dt>작품명</dt>
+          <dd>김규비ㅣFantasy</dd>
+          <dt>아티스트</dt>
+          <dd>김규비</dd>
+          <dt>작품소재</dt>
+          <dd>Mixed media on canvas</dd>
+          <dt>작품정보</dt>
+          <dd>65.1x65.1cm,2024</dd>
+          <dt>작품가격</dt>
+          <dd>1,900,000원</dd>
+          <dt>작품코드</dt>
+          <dd>P000BITS</dd>
+        </dl>
+        <form class="frame">
+          <label for="frame-slt">
+            액자 선택<span>[필수] 옵션을 선택해 주세요.</span>
+          </label>
+          <select name="frame" id="frame-slt">
+            <option value="no-frame">액자 없음(작품만)</option>
+            <option value="bright">밝은톤 원목액자</option>
+            <option value="dark">어두운톤 원목액자</option>
+            <option value="white">화이트 프레임액자</option>
+            <option value="black">블랙 프레임액자</option>
+          </select>
+        </form>
+        <div class="total-price">
+          <p>총 상품금액</p>
+          <p class="result-price">1,900,000원<span>(1개)</span></p>
+        </div>
+      </div>
+      <div class="bottom">
+        <button id="cart-btn" type="button">장바구니</button>
+        <button id="order-btn" type="button">구매하기</button>
+      </div>
+    </div>
+  </main>
+</body>
+
+</html>
