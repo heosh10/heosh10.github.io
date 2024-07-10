@@ -1,11 +1,11 @@
 $(function(){
 
-   const $mainList = $('#main-slide');
-   let timerId = 0;
-   let $photoIndex = 0;
-   const $bulletsList = $(".bullets > li > a");
+    const $mainList = $('.main-slide');
+    let timerId = 0;
+    let $photoIndex = 0;
+    const $bulletsList = $(".bullets li a");
 
-   $bulletsList.eq($photoIndex).addClass("on");
+    $bulletsList.eq($photoIndex).addClass("on");
 
     function nextImageSlide(){
         $photoIndex++;
@@ -52,14 +52,14 @@ $(function(){
     
     
 
-    $("#main-player > div").on('click', function(){
-        $("#main-player > div").removeClass('player-click');
+    $(".main-player > div").on('click', function(){
+        $(".main-player > div").removeClass('player-click');
         $(this).addClass('player-click');
     });
 
-    const $eventList = $('#event-slide > ul');
+    const $eventList = $('.event-slide > ul');
 
-    $('#bt-right').on('click', function(){
+    $('.bt-right').on('click', function(){
         if($eventList.is(":animated")) return;
         $eventList.animate({marginLeft:'-270px'}, 600, function(){
             $eventList.children().first().appendTo($eventList);
@@ -67,13 +67,13 @@ $(function(){
         });
     });
 
-    $('#bt-left').on('click', function(){
+    $('.bt-left').on('click', function(){
         if($eventList.is(":animated")) return;
         $eventList.prepend($eventList.children().last())
         .css({marginLeft:'-270px'}).animate({marginLeft: 0}, 600);
     });
 
-    let $navLi = $('#nav-left > li');
+    let $navLi = $('.nav-left > li');
     $navLi.on('click', function(){
         navLiIndex = $navLi.index(this);
         sectionTop = $('.section').eq(navLiIndex).offset().top - 100;
