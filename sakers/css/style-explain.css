@@ -7,6 +7,7 @@ a {
     text-decoration: none;
     color: inherit;
 }
+/* nav section */
 .nav {
     width: 1200px;
     margin: 0 auto;
@@ -62,9 +63,7 @@ a {
 .nav-right li:first-child a {
     border-right: 1px solid #333333;
 }
-
-
-
+/* title section */
 .title {
     width: 100%;
     margin: 0 auto;
@@ -85,10 +84,12 @@ a {
     color: #ffffff;
     font-weight: 600;
 }
+/* content section */
 .contents {
     width: 1200px;
     margin: 80px auto;
 }
+/* content title part */
 .contents-up {
     width: 1200px;
     display: flex;
@@ -112,6 +113,7 @@ a {
 .contents-up ul li:first-child {
     border-right: 1px solid #333333;
 }
+/* content mid part */
 .contents-mid {
     width: 1200px;
     text-align: center;
@@ -121,6 +123,7 @@ a {
     margin: 20px 0;
     font-size: 16px;
 }
+/* content next prev part */
 .contents-down {
     width: 1200px;
     margin: 0 auto;

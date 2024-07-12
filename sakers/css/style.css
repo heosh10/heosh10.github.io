@@ -109,6 +109,7 @@ object-fit: cover;
     left: 72%;
     border: 3px solid #ff7777;
 }
+/* main-slide ~ bullets */
 .bullets {
     position: absolute;
     bottom: 5%;
@@ -132,9 +133,7 @@ object-fit: cover;
     text-decoration: none;
 }
 .bullets li a.on {opacity: 1;}
-
-
-
+/* game schedule section */
 .game {
     width: 1200px;
     margin: 80px auto;
@@ -228,9 +227,7 @@ object-fit: cover;
 .game-right thead tr{
     background-color: #d8d8d8;
 }
-
-
-
+/* player section */
 #player {
     width: 1200px; 
     margin: 80px auto;
@@ -241,7 +238,6 @@ object-fit: cover;
     text-shadow: -7px 7px 1px #3e0206;
     margin-bottom: 20px;
 }
-
 .main-player {
     width: 1200px;
     margin: 0 auto;
@@ -296,8 +292,6 @@ object-fit: cover;
     display: flex;
     justify-content: space-between;
 }
-
-
 .sub-player {
     width: 1200px;
     margin: 0 auto;
@@ -319,7 +313,6 @@ object-fit: cover;
     display: flex;
     justify-content: space-between;
 }
-
 .sub-player span:first-child {color: #888888;}
 .coach {
     width: 1200px;
@@ -345,7 +338,7 @@ object-fit: cover;
     justify-content: space-between;
 }
 .coach ul li.condi { width: 219px;}
-
+/* news section */
 #news {
     width: 1200px;
     margin: 80px auto;
@@ -379,7 +372,6 @@ object-fit: cover;
     transition-duration: 200ms;
     z-index: 999;
 }
-
 .newscard:hover {box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.8);}
 .newscard a {
     display: flex;
@@ -444,13 +436,7 @@ object-fit: cover;
     width: 55px;
     line-height: 32.5px;
 }
-
-
-
-
-
-
-
+/* event section */
 #event {
     width: 1200px;
     margin: 80px auto;
@@ -486,6 +472,7 @@ object-fit: cover;
 }
 .event-slide img {border-radius: 15px;}
 .event-slide li:hover {transform: scale(1);}
+/* event button */
 #event button {
     border: none;
     background-color: transparent;
@@ -510,11 +497,7 @@ object-fit: cover;
     right: 20px;
     background: url(../images/button/right-button.png) center no-repeat;
 }
-
-
-
-
-
+/* photo section */
 #photo {
     width: 1200px;
     margin: 80px auto;
@@ -566,6 +549,7 @@ object-fit: cover;
     box-shadow: 0px 0px 12px #a91e36;
     transition-duration: 200ms;
 }
+/* footer section */
 #footer {
     width: 100%;
     margin-top: 80px;
