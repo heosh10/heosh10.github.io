@@ -53,4 +53,5 @@ $(function(){
         $startupList.removeClass('startups-click');
         $(this).addClass('startups-click');
     });
+    
 });

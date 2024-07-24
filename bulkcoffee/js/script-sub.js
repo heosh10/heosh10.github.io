@@ -7,6 +7,4 @@ $(function(){
         $menu.toggle(".active");
         $icon.toggle(".active");
     });
-
-
 });

@@ -16,4 +16,14 @@ $(function(){
     if(scrollTop > aboutBottomTop) $(".about-bottom").fadeTo(0, 1);
     else $(".about-bottom").fadeTo(0, 0);
   });
+  // Graphic design modal
+  $(".gd-con").on("click", function(e){
+    e.preventDefault();
+    let clickIndex = $(".gd-con").index(this);
+    $(".gd-popup").eq(clickIndex).addClass("active");
+  });
+  $(".popup-btn").on("click", function(e){
+    e.preventDefault();
+    $(".gd-popup").removeClass("active");
+  });
 });
